@@ -4,18 +4,18 @@ public class Car {
     int year;
     String color;
 
-    public Car (){
+    public Car1 (){
         this.year = 2000;
         this.color = "red";
 
     }
 
-    public Car (int year){
+    public Car2 (int year){
         this.year = year;
         this.color = "green";
     }
 
-    public Car (int year, String color){
+    public Car3 (int year, String color){
         this.year = year;
         this.color = color;
     }
